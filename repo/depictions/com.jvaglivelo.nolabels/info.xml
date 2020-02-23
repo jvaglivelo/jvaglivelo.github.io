@@ -1,0 +1,20 @@
+<package>
+	<id>com.jvaglivelo.nolabels</id>
+	<name>NoLabels</name>
+	<version>1.0.0</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>13.3</maxiOS>
+			<otherVersions>unconfirmed</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Hide Icon Labels in the Springboard and Switcher</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
