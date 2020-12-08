@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>JVaglivelo</title>
+    <title>JVaglivelo - About</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
@@ -12,7 +12,7 @@
 <body onload="getDate()">
 <div class="center-screen">
   <div class="statusBar">
-    <p class="title">home@jVaglivelo.me</p>
+    <p class="title">about@jVaglivelo.me</p>
     <div class="buttons">
     </div>
    </div>
@@ -20,16 +20,18 @@
     <br>
     <p class="termText">Last login: <span id="date">Date</span></p>
     <p class="termText"><span style="color: #5ed400">></span> ls</p>
-    <p class="termText"><a href="index.html">Home</a> &emsp;&emsp; <a href="about.html">About</a> &emsp;&emsp; <a href="projects.html">Projects</a> &emsp;&emsp; <a href="contact.html">Contact</a> &emsp;&emsp; me.txt</p>
+    <p class="termText"><a href="index.html">Home</a> &emsp;&emsp; <a href="about.html">About</a> &emsp;&emsp; <a href="projects.html">Projects</a> &emsp;&emsp; <a href="contact.html">Contact</a> &emsp;&emsp; form.txt</p>
     <p class="termText"><span style="color: #5ed400">></span></p>
     <p class="termText"><span style="color: #5ed400">></span> pwd</p>
-    <p class="termText">https://jvaglivelo.me</p>
+    <p class="termText">https://jvaglivelo.me/contact.html</p>
     <p class="termText"><span style="color: #5ed400">></span></p>
-    <p class="termText"><span style="color: #5ed400">></span> cat me.txt</p>
-    <br>
-    <p class="termText">Jordan Vaglivelo</p>
-    <p class="termText">Software Developer from CT</p>
-    <p class="termText">Western New England University</p>
+    <p class="termText"><span style="color: #5ed400">></span>cat form.txt</p>
+    <form action="https://formspree.io/f/mpzoypdl" method="POST">
+      <p class="termText"><input type="text" placeholder="Name" name="name"></p>
+      <p class="termText"><input type="email" placeholder="Email" name="_replyto"></p>
+      <p class="termText"><textarea name="message" placeholder="Type your message" required></textarea></p>
+      <p class="termText"><input type="submit" value="Send"></p>
+    </form>
     <p class="termText"><span style="color: #5ed400">></span></p>
     <p class="termText">> <span class="termCursor"></span></p>
   </div>

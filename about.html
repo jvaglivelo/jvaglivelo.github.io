@@ -4,31 +4,35 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>MySite</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>JVaglivelo - About</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
-<body>
-    <nav class="navbar navbar-light navbar-expand-md">
-        <div class="container-fluid"><a class="navbar-brand" href="#">Jordan Vaglivelo</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navcol-1">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="about.html">About</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects.html">Projects</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container-proj">
-        <div>
-            <h1 class="text-center">About</h1>
-        </div>
+<body onload="getDate()">
+<div class="center-screen">
+  <div class="statusBar">
+    <p class="title">about@jVaglivelo.me</p>
+    <div class="buttons">
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+   </div>
+  <div class="macOSWindow">
+    <br>
+    <p class="termText">Last login: <span id="date">Date</span></p>
+    <p class="termText"><span style="color: #5ed400">></span> ls</p>
+    <p class="termText"><a href="index.html">Home</a> &emsp;&emsp; <a href="about.html">About</a> &emsp;&emsp; <a href="projects.html">Projects</a> &emsp;&emsp; <a href="contact.html">Contact</a> &emsp;&emsp; aboutme.txt</p>
+    <p class="termText"><span style="color: #5ed400">></span></p>
+    <p class="termText"><span style="color: #5ed400">></span> pwd</p>
+    <p class="termText">https://jvaglivelo.me/about.html</p>
+    <p class="termText"><span style="color: #5ed400">></span></p>
+    <p class="termText"><span style="color: #5ed400">></span> cat aboutme.txt</p>
+    <br>
+    <p class="termText">Hi, I'm Jordan Vaglivelo</p>
+    <p class="termText">I'm A Computer Science major, minoring in Computer Forensics</p>
+    <p class="termText">Take a look around, if you have any questions you can contact me above!</p>
+    <p class="termText"><span style="color: #5ed400">></span></p>
+    <p class="termText">> <span class="termCursor"></span></p>
+  </div>
+</div>
 </body>
-
 </html>
