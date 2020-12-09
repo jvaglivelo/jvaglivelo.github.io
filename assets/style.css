@@ -36,7 +36,7 @@ input::placeholder, textarea::placeholder{
 .macOSWindow{
     top: 50%;
     left: 50%;
-    width:800px;
+    width:45%;
     height:450px;
     background:black;
     border-radius: 0px 0px 13px 13px;
@@ -44,7 +44,7 @@ input::placeholder, textarea::placeholder{
 .statusBar {
     top: 50%;
     left: 50%;
-    width:800px;
+    width:45%;
     height:30px;
     background: #343435;
     border-radius: 13px 13px 0px 0px;
