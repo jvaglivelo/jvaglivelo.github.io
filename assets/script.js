@@ -7,8 +7,10 @@ function getDate() {
   var month = months[(today.getMonth())];
   var yyyy = today.getFullYear();
   var date = days[today.getDay()];
-  var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
- 
-  var final = date + " " + month + " " + dd + " " + time + " on ttys000";
+  let h = `${today.getHours()}`.padStart(2, '0')
+  let m = `${today.getMinutes()}`.padStart(2, '0')
+  let s = `${today.getSeconds()}`.padStart(2, '0')
+
+  var final = date + " " + month + " " + dd + " " + (h + ":" + m + ":" + s) + " on ttys000";
   document.getElementById("date").innerHTML = final;
 }
