@@ -36,7 +36,7 @@ input::placeholder, textarea::placeholder{
     top: 50%;
     left: 50%;
     width:45%;
-    height:450px;
+    height:65%;
     background:black;
     border-radius: 0px 0px 13px 13px;
 }
